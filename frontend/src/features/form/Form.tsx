@@ -15,7 +15,7 @@ type TPosition = {
 };
 
 type TProps = {
-  setRovers: (_: unknown) => void;
+  setRovers: (_) => void;
 };
 function Form({ setRovers }: TProps) {
   const [inputPositions, setInputPositions] = useState<TPosition>({
